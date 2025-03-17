@@ -55,3 +55,10 @@ Restart klipper.
 Now you have an easy to remove purge line that takes up less of the build area.
 
 _Note: At the start of a print during KAMP purging you might notice a comment in the console about turning on firmware retraction. Ignore this. It is not necessary and slicer based retraction is superior._
+
+## Possible issues with using KAMP purging
+Whilst the location of the KAMP purge line is adaptive based on printed objects, it does not consider brims or skirts.
+
+On the Plus4 there are 2 KAMP_Settings.cfg, the one in the KAMP directory is not used, the one in the same directory as printer.cfg is the one being used. This can be a little confusing because the actual Line_Purge.cfg is in the KAMP\ directory. Keep that in mind if you decide to edit settings.
+
+If using beacon or cartographer, the default 10mm is possibly too close. The purge line is barely cleared by the screws and it's possible for the beacon/carto to knock the the purge line into the path of the nozzle if there is a bit of curled up ooze attached to it. 
