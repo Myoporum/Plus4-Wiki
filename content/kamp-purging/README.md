@@ -61,4 +61,4 @@ Whilst the location of the KAMP purge line is adaptive based on printed objects,
 
 On the Plus4 there are 2 KAMP_Settings.cfg, the one in the KAMP directory is not used, the one in the same directory as printer.cfg is the one being used. This can be a little confusing because the actual Line_Purge.cfg is in the KAMP\ directory. Keep that in mind if you decide to edit settings.
 
-If using beacon or cartographer, the default 10mm is possibly too close. The purge line is barely cleared by the screws and it's possible for the beacon/carto to knock the the purge line into the path of the nozzle if there is a bit of curled up ooze attached to it. 
+If using beacon or cartographer, the default 10mm is possibly too close. The purge line is barely cleared by the screws and it's possible for the beacon/carto to knock the the purge line into the path of the nozzle if there is a bit of curled up ooze attached to it. You also probably should be running Stew675's modified KAMP purge https://github.com/qidi-community/Plus4-Wiki/blob/main/content/bed-scanning-probes/Beacon3D/RevH-Normal/Line_Purge.cfg
